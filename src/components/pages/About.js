@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div>
-      <div className="row">
+      <div className="row m-5">
         <div className="col-lg-5">
           <div className="jumbotron jumbotron-fluid mx-auto">
             <div className="container text-center">
@@ -37,7 +37,7 @@ export default function About() {
                 Application Services as a DevOps Engineer. I love Formula 1 and
                 the NFL. My favorite driver is Max Verstappen and my favorite
                 NFL team is the Kansas City Chiefs. I look forward to
-                overlanding and camping as much as possible in my
+                overlanding and camping as much as possible in my truck with my pup Kip!
               </p>
             </div>
           </div>
