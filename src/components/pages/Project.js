@@ -1,16 +1,36 @@
-import React from 'react';
+import React from "react";
 
 export default function Project({ project }) {
-    return (
-        <>
+  const style = {
+    buttonNew: {
+      color: "white",
+      backgroundColor: "#2747fd",
+    },
+  };
+  return (
+    <>
+      <div className="m-5 col-3 card py-4">
         <div className="card-body">
-                <h5 className="card-title">{project.name}</h5>
-                <p className="card-text">
-                 {project.short}
-                </p>
-                <a href={project.live} target="_blank" className={project.live===project.repo ? '' : 'btn btn-primary m-1'}>{project.live===project.repo ? "" : 'Try it out!'}</a>
-                <a href={project.repo} target="_blank" className="btn btn-primary m-1">Access the Repository</a>
-              </div>
-        </>
-    )
+          <h5 className="card-title">{project.name}</h5>
+          <p className="card-text">{project.short}</p>
+          <a
+            href={project.live}
+            target="_blank"
+            style={style.buttonNew}
+            className={project.live === project.repo ? "" : "btn btn- m-1"}
+          >
+            {project.live === project.repo ? "" : "Try it out!"}
+          </a>
+          <a
+            href={project.repo}
+            target="_blank"
+            style={style.buttonNew}
+            className="btn btn- m-1"
+          >
+            Access the Repository
+          </a>
+        </div>
+      </div>
+    </>
+  );
 }

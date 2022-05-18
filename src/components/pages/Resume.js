@@ -60,7 +60,7 @@ export default function Resume() {
 
 return (
   <div className="m-5">
-      <a href="/images/resume.pdf" download>Downlad my resume here!</a>
+      <a href={require('../images/resume.pdf')} download="Jacob Lewis Resume">Downlad my resume here!</a>
     <h2>Proficiencies</h2>
     <>
       <ul>
