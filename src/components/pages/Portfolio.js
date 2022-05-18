@@ -9,6 +9,7 @@ function Portfolio() {
       short: "Full Stack Group Project",
       repo: "https://github.com/emmareimer/palabra_2",
       live: "https://palabra-2.herokuapp.com/",
+      location: 'palabra'
     },
     {
       id: 2,
@@ -16,7 +17,7 @@ function Portfolio() {
       short: "IndexDb Note App",
       repo: "https://github.com/JLewis1995/Jake-s-Text-Editor-JATE",
       live: "https://jakes-jate.herokuapp.com/",
-      img: `jate.png`
+      location: `jate`
     },
     {
       id: 3,
@@ -24,6 +25,7 @@ function Portfolio() {
       short: "Social Network Back-End API App",
       repo: "https://github.com/JLewis1995/Network-Social",
       live: "https://github.com/JLewis1995/Network-Social",
+      location: 'network'
     },
     {
       id: 4,
@@ -31,6 +33,7 @@ function Portfolio() {
       short: "Back-End E-Commerce App",
       repo: "https://github.com/JLewis1995/Swifty_E-Commerce_Back_End",
       live: "https://github.com/JLewis1995/Swifty_E-Commerce_Back_End",
+      location: 'swifty'
     },
     {
       id: 5,
@@ -38,6 +41,7 @@ function Portfolio() {
       short: "Company Employee Tracking Database Application",
       repo: "https://github.com/JLewis1995/TrustyEmployeeTracker",
       live: "https://github.com/JLewis1995/TrustyEmployeeTracker",
+      location: 'trusty'
     },
     {
       id: 6,
@@ -45,6 +49,7 @@ function Portfolio() {
       short: "Node.js App",
       repo: "https://github.com/JLewis1995/README-Generator",
       live: "https://github.com/JLewis1995/README-Generator",
+      location: 'read'
     },
   ];
 
