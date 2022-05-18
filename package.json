@@ -2,7 +2,7 @@
   "name": "react-portfolio-jlewis",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JLewis1995.github.io/React-Portfolio-JLewis",
+  "homepage": "http://JLewis1995.github.io/React-Portfolio-JLewis",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
