@@ -8,7 +8,7 @@ export default function Project({ project }) {
       backgroundColor: "#2747fd",
     },
   };
-  // const image = `../images/${project.img}/image.png`
+  
   return (
     <>
       <div className="m-5 col-3 card py-4">
