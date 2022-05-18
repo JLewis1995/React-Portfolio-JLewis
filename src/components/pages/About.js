@@ -1,18 +1,16 @@
 import React from "react";
 
-// WHEN I am presented with the About Me section
-// THEN I see a recent photo or avatar of the developer and a short bio about them
-
-// Acceptance criteria met for this page
-
 export default function About() {
+  // create image constants for easier use below
   const first = require("../images/1.jpg");
   const second = require("../images/JL.jpg");
+  // style for page specific
   const width = {
     maxWidth: '300px'
   }
   return (
     <div className="row m-5">
+      {/* images div */}
       <div style={width}>
         <img className="img-fluid p-2" src={first} alt="Jacob Lewis" />
         <br></br>
@@ -22,6 +20,7 @@ export default function About() {
           alt="Another of Jacob Lewis"
         />
       </div>
+      {/* Professional Section Div */}
       <div className="col-lg-4">
         <div className="container text-center">
           <h1 className="display-4 border-bottom">Professional</h1>
@@ -40,6 +39,7 @@ export default function About() {
           </p>
         </div>
       </div>
+      {/* Personal Section Div */}
       <div className="col-lg-4">
         <div className="container text-center">
           <h1 className="display-4 border-bottom">Personal</h1>

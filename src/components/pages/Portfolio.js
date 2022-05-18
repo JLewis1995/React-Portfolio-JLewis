@@ -60,7 +60,6 @@ function Portfolio() {
           {projectNames.map((item) => (
             <Project project={item} key={item.id}/>
           ))}
-          ,
         </div>
       </div>
     </>

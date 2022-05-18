@@ -6,4 +6,4 @@ jacobllewis@outlook.com
 
 https://jlewis1995.github.io/React-Portfolio-JLewis
 
-![Screenshot]()
+![Screenshot](./src/components/images/ss.png)
