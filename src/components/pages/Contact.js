@@ -82,7 +82,7 @@ export default function Contact() {
             onBlur={formChange}
           />
            {formErrors.email.error &&
-          <div style={style.red}>Must have emailed entered</div>
+          <div style={style.red}>Must have valid emailed entered</div>
           }
         </div>
         {/* message div */}
